@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:ital,wght@0,500;1,100&family=Ubuntu&display=swap');
+body {
+    color: aliceblue;
+   background: linear-gradient(45deg,#250543, #7a1d36);
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  
+
+  h1 {
+
+    text-align: center;
+
+  }
+
+  
+
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+
+  
+
+  section {
+      text-align: center;
+
+  }
+
+  
+
+  ul {
+
+    list-style-type: none;
+    padding: 0;
+
+  }
+
+  
+
+  li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  
+
+  li:hover {
+
+    text-decoration: underline;
+
+  }
+
+  #current-image-container{
+
+    padding: 20px 10px;
+    background-color:  #26385d;
+    color: rgb(247, 239, 239);
+    width: fit-content; 
+    margin: 0 auto;
+    border-radius: 20px;
+
+  }
+
+  #current-image-container h4{
+  
+    font-size: 25px;
+
+  }
+
+  #current-image-container img{
+
+    width: 500px;
+    height: 300px;
+
+  }
+
+  #current-image-container p{
+
+    width: 600px;
+
+  }
+
+  #history{
+
+    text-align: center;
+    margin:20px 0;
+
+  }
+
+#search-history{
+
+    color: rgb(77, 77, 115);
+    text-decoration: underline;
+
+}
+.date{
+    background-color: antiquewhite;
+}
+
+.button{
+    border-radius: 10px;
+    background: linear-gradient(45deg,#19c842, #275d33);
+}
